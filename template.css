@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url(/template_images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#accountLogin {
+  background-image: url(/template_images/profile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  margin: 5% auto 2% auto;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0px auto 10% auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+input:hover,
+select:hover,
+textarea:hover,
+input[type="submit"]:hover {
+  border-color: lightblue;
+}
+
+input:active,
+select:active,
+textarea:active {
+  background-color: #ffffff;
+}
+
+input:required,
+select:required {
+  border-color: darkgray;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
